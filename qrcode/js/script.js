@@ -14,5 +14,7 @@ function gerar(){
         text:texto.value,
         width: 350,
         height: 350,
+          colorLight: 'transparent',
+        colorDark: 'black',
     })
 }
