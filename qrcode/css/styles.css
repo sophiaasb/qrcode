@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+#fundo{
+    min-width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 30%;
+}
+
+.central{
+    width: fit-content;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.459);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.central div input{
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+}
+
+.central div button{
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#qrcode{
+    margin-top: 30px;
+}
